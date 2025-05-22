@@ -15,7 +15,7 @@ function Resume() {
         <div className="col-12 col-md-6 text-white d-flex flex-column justify-content-center  px-5">
             <h1 className="fs-1 mb-3">Resume</h1>
             <p>
-              you can view my resume <a className='btn btn-primary ' href="https://github.com/vijay03842/my-resume/blob/main/vijaykumar%20resume.pdf"> Download</a>
+              you can view my resume <a className='btn btn-primary ' href="https://github.com/vijay03842/my-resume"> Download</a>
             </p>
         </div>
       </div>
