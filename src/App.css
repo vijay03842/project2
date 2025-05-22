@@ -1,0 +1,105 @@
+/* App.css */
+.nav-link {
+  text-decoration: none;
+  color:white;
+  font-weight: 500;
+  border: white 2px solid;
+ 
+  
+}
+.header-bg{
+    background-color:#b0e0e6;
+    /* position: sticky;
+    top: 0px; *//*header file stable ah irrukum scroll pannum pothu*/
+     /* height: 60px;
+     padding-left: ; */
+}
+.img{
+    height: 50%;
+    width: 50%;
+}
+.hero-bg{
+    background-color: #f0f8ff;
+}
+.link{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+    
+}
+.link:hover{
+    color: black;
+}
+.about-bg{
+    background-color: cadetblue;
+    
+    
+}
+/* project background */
+.project{
+    background-color:#f0f8ff;
+    
+}
+.image {
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: opacity 0.5s ease;
+  pointer-events: none; /* ⬅️ allow clicks to pass through */
+}
+
+.image-bg {
+  position: relative; /* ⬅️ key: required for absolute image to stay inside */
+  background-color: cadetblue;
+  height: 300px;
+  width: 400px;
+  cursor: pointer;
+  overflow: hidden; /* just in case image goes outside */
+}
+
+.image-bg:hover .image {
+  opacity: 0;
+}
+
+/* resume bacground */
+.resume-bg{
+    background-color:cadetblue ;
+
+}
+.hero{
+   padding-left:100px;
+   padding-top: 2px;
+}
+/*resume button */
+.btn:hover{
+    border: 2px white solid;
+}
+/* .image-bg .btn{
+    height: 30px;
+    padding: 2px;
+    
+} */
+.h1{
+    margin-right: 50%;
+}
+
+/* mobile menu */
+.menu-bg{
+    background-color: burlywood;
+    text-align: center;
+}
+
+/* destop view menu bar */
+.nav-link-1 {
+  text-decoration: none;
+  color:white;
+  font-weight: 500;
+  
+}
+.nav-link-1:hover {
+ color: black !important;
+  
+}
