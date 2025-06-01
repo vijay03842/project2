@@ -13,8 +13,8 @@ function Hero() {
     </h2>
     <p className='fs-5'>I'm a React developer</p>
     <div className="d-flex gap-3 justify-content-center justify-content-md-start mt-3">
-      <Link className='link' to=''><i className="bi bi-twitter-x"></i></Link>
-      <Link className='link' to='/sd'><i className="bi bi-facebook"></i></Link>
+      <Link className='link' to=''><i class="bi bi-envelope"></i></Link>
+      <Link className='link' to='https://github.com/vijay03842'><i class="bi bi-github"></i></Link>
       <Link className='link' to='https://www.linkedin.com/in/vijaykumar-k-j-57808b285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><i className="bi bi-linkedin"></i></Link>
     </div>
   </div>
